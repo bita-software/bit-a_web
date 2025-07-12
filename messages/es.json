@@ -1,0 +1,564 @@
+{
+  "Navigation": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "cases": "Casos",
+    "contact": "Contacto",
+    "realEstateWeb": "Real state web",
+    "realEstateWebDescription": "Sitio web para bienes raíces de lujo",
+    "expressLanding": "Landing de lujo express",
+    "ecommercePremium": "E-commerce premium",
+    "corporateWeb": "Web corporativa",
+    "automationAI": "Automatización & IA",
+    "digitalBranding": "Branding digital",
+    "digitalDiagnosis": "Diagnóstico digital",
+    "expressDescription": "Impacto en 10 días, carga en 1 segundo",
+    "ecommerceDescription": "Catálogo dinámico y ventas sin fricción",
+    "corporateDescription": "Sitio a medida que refleja tu marca",
+    "automationDescription": "Elimina tareas repetitivas con IA",
+    "brandingDescription": "Coherencia visual en toda tu presencia",
+    "diagnosisDescription": "Evaluación gratuita de tu presencia digital"
+  },
+  "Hero": {
+    "title": {
+      "line1": "Convertimos marcas ambiciosas",
+      "line2": "en leyendas digitales"
+    },
+    "subtitle": "Sitios de lujo que mueven corazones y métricas",
+    "cta": {
+      "schedule": "Agendar ahora",
+      "portfolio": "Ver proyectos"
+    },
+    "scrollIndicator": "Desliza para ver más"
+  },
+  "Problem": {
+    "title": "Tu sitio no transmite exclusividad,",
+    "subtitle": "y los prospectos premium se van",
+    "description": "Eleva tu web al nivel de tu marca y transforma visitas premium en clientes, sin complicaciones",
+    "cta": "Transformar mi sitio ahora"
+  },
+  "Services": {
+    "title": "Nuestros servicios",
+    "subtitle": "Transformamos visiones en experiencias digitales extraordinarias",
+    "items": {
+      "express": {
+        "title": "Lujo web express",
+        "description": "Landing o sitio one-page de alto impacto, listo en 10 días, optimizado para seo y velocidad. Ideal para marcas boutique que necesitan exclusividad inmediata.",
+        "cta": "Agenda tu demo gratuita"
+      },
+      "ecommerce": {
+        "title": "E-commerce premium escalable",
+        "description": "Tu e-commerce headless next.js+payload que carga en 1s, muestra catálogos premium sin límite y automatiza up-sell/cross-sell para experiencias exclusivas.",
+        "cta": "Solicita diagnóstico gratis"
+      },
+      "automation": {
+        "title": "Automatización & IA white-glove",
+        "description": "Asistentes virtuales inteligentes, emails y reportes que eliminan tareas repetitivas. Pensado para empresas que buscan un partner ético y cercano.",
+        "cta": "Reserva una consultoría 1-a-1"
+      }
+    }
+  },
+  "About": {
+    "title": "Nuestra esencia",
+    "subtitle": "Somos artesanos digitales especializados en crear experiencias únicas",
+    "description": "Bit-A es una boutique de ingeniería y diseño digital que transforma procesos complejos en experiencias de lujo, veloces y rentables. Nuestro equipo aplica sólidos estándares de seguridad, desarrollo integral de vanguardia y un compromiso firme con la conversión, guiados por principios de servicio y excelencia genuina."
+  },
+  "CaseStudies": {
+    "title": "Casos de estudio",
+    "subtitle": "Resultados que hablan por sí solos",
+    "viewMore": "Ver más casos",
+    "cases": {
+      "stocklink": {
+        "title": "Stocklink · Retail & Distribución",
+        "challenge": "El reto",
+        "challengeDescription": "Las distribuidoras dependían de hojas de cálculo y llamadas telefónicas, provocando quiebres de stock y ventas perdidas.",
+        "impact": "Impacto",
+        "impactDescription": "• 70% menos errores de inventario\n• Sistema de reposición predictiva\n• Venta autoadministrada"
+      },
+      "herreria": {
+        "title": "Herrería FC · Metalworks premium",
+        "challenge": "El reto",
+        "challengeDescription": "Dependían solo de instagram; sin sitio web profesional no lograban convencer a clientes de alto valor.",
+        "impact": "Impacto",
+        "impactDescription": "• Mágen premium desde el primer clic\n• Flujo constante de consultas online\n• Cotizaciones de mayor valor"
+      }
+    },
+    "cta": "Solicita diagnóstico gratis"
+  },
+  "LeadMagnet": {
+    "title": "Mini-curso por correo:",
+    "subtitle": "\"Landing de lujo en 5 pasos\"",
+    "description": "En solo 5 días y un e-mail diario, descubre cómo crear una landing digna de tu marca premium. Desde la promesa de valor hasta el checklist final + acceso a demo privada con bit-a.",
+    "placeholder": "Tu email aquí",
+    "cta": "Suscríbeme al mini-curso"
+  },
+  "DiscoverYourPotential": {
+    "title": "Descubrí tu potencial",
+    "description": "En 30 min analizamos velocidad, ux y oportunidades de conversión para entregarte un roadmap exclusivo que eleve tu marca y multiplique tus ventas.",
+    "cta": "Agenda tu diagnóstico premium"
+  },
+  "AboutPage": {
+    "title": {
+      "line1": "tecnología que hace",
+      "line2": "vibrar tu marca"
+    },
+    "intro": {
+      "heading": "Introducción",
+      "content": "Durante años toqué música, y siempre me impresionó la armonía de las canciones de worship. Había algo que sonaba increíble y no sabía qué era… hasta que empecé a tocar el bajo porque no había bajista en la banda. Ahí entendí el rol que cumplía: eso que nadie escucha claramente, pero que sostiene todo y hace que todo suene bien.\n\nCon la digitalización pasa lo mismo. Muchas personas ven cómo las grandes marcas destacan, pero no saben por qué. Y el secreto está en las personas y la tecnología que hay detrás.\n\nSoy Ignacio Gómez, director de Bit-A, y estamos acá para que tu presencia online vibre con esa armonía profunda, mientras vos tocás el solo de tu marca."
+    },
+    "story": {
+      "heading": "Creemos en una forma mejor de crear experiencias digitales",
+      "content": "Bit-A nació al ver cómo firmas de alto calibre destinaban fortunas a showrooms, concesionarios y oficinas de lujo… mientras su presencia digital se quedaba en sitios desactualizados y sistemas heredados sostenidos por un simple \"si funciona, ni lo toques\". Venimos a derribar ese paradigma: trasladamos al mundo online la misma excelencia, seguridad e innovación que exhibes fuera de la pantalla, liberando todo el potencial de tu marca."
+    },
+    "cta": {
+      "heading": "Impulsá tu presencia digital con claridad y propósito",
+      "content": "Ya conocés nuestra forma de trabajar. Si querés una web a la altura de tu marca, estamos listos para ayudarte a dar el próximo paso.",
+      "button": "Contactanos"
+    }
+  },
+  "ServicesPage": {
+    "hero": {
+      "title": "Marca con fuerza",
+      "subtitle": "Creamos experiencias digitales que destacan con elegancia, cargan con velocidad y dejan una impresión duradera. Ideal para marcas que lideran.",
+      "cta": "Obtené tu auditoría gratuita"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "express": {
+        "title": "Landing de Lujo Express",
+        "subtitle": "Impacto en 10 días",
+        "description": "Carga en menos de 1 segundo y está diseñada para convertir prospectos premium sin fricción.",
+        "cta": "Ver más",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "ecommerce": {
+        "title": "E-commerce Premium",
+        "subtitle": "Vende sin fricción",
+        "description": "Catálogo dinámico, pago seguro y up-sell automático.",
+        "cta": "Ver más",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "assistant": {
+        "title": "Asistente Digital",
+        "subtitle": "Diagnóstico en 5 min",
+        "description": "Chatbot IA que revela tu madurez digital al instante.",
+        "cta": "Ver en acción"
+      },
+      "corporate": {
+        "title": "Web Corporativa de Alto Nivel",
+        "subtitle": "Tu marca, a la altura",
+        "description": "Sitio a medida que combina lujo, velocidad y conversión.",
+        "cta": "Ver más",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "automation": {
+        "title": "Automatización & IA",
+        "subtitle": "White-Glove Service",
+        "description": "Elimina tareas repetitivas y eleva la experiencia post-venta.",
+        "cta": "Ver más",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "branding": {
+        "title": "Branding Digital",
+        "subtitle": "Coherencia visual",
+        "description": "Manual de marca y UI kit que diferencian tu presencia online.",
+        "cta": "Ver más"
+      },
+      "diagnosis": {
+        "title": "Diagnóstico Digital",
+        "subtitle": "¿No sabés por dónde empezar?",
+        "description": "Evaluamos tu presencia actual y detectamos oportunidades de mejora.",
+        "cta": "Solicita tu diagnóstico gratuito"
+      }
+    },
+    "transformation": {
+      "title": "Transformación Digital",
+      "forAnyone": "Esto es para vos si...",
+      "nowImagine": "Ahora imaginate si pudieras...",
+      "items": {
+        "ready": "Estás listo para empezar a atraer clientes de alto valor con una web que impacta en menos de un segundo.",
+        "tired": "Estás cansado de tener un sitio lento, genérico y que no refleja la calidad de tu negocio.",
+        "investing": "Estás invirtiendo en marketing, pero no ves conversiones reales ni crecimiento tangible."
+      },
+      "results": {
+        "stop": "Dejar de luchar para explicar qué hacés cada vez que alguien entra a tu web.",
+        "confident": "Sentirte por fin confiado de mostrar tu sitio sabiendo que posiciona tu marca como premium.",
+        "clarity": "Tener claridad sobre cómo convertir tu presencia digital en tu mejor herramienta de ventas."
+      }
+    },
+    "whatsIncluded": {
+      "title": "¿Qué incluye?",
+      "design": {
+        "title": "Diseño Web a Medida",
+        "description": "Diseño exclusivo para tu marca, pensado para verse increíble, cargar rápido y conectar con tu cliente ideal.",
+        "benefit": "Causá impacto desde el primer clic"
+      },
+      "consulting": {
+        "title": "Asesoría Estratégica",
+        "description": "Sesiones personalizadas donde definimos objetivos, oportunidades digitales y el camino a seguir.",
+        "benefit": "Tomá decisiones con respaldo experto"
+      },
+      "development": {
+        "title": "Desarrollo Premium",
+        "description": "Código limpio, moderno y escalable. Usamos Next.js, Tailwind y Payload CMS.",
+        "benefit": "Lanzá una web que rinde al máximo"
+      },
+      "brandAlignment": {
+        "title": "Alineación de Marca",
+        "description": "Creamos un sistema visual consistente: UI Kit, paleta, tipografías y lineamientos claros.",
+        "benefit": "Mostrá tu marca con presencia y estilo"
+      },
+      "performance": {
+        "title": "Optimización de Performance",
+        "description": "Carga en menos de un segundo, animaciones fluidas y base técnica preparada para SEO.",
+        "benefit": "Convertí velocidad en resultados"
+      },
+      "integrations": {
+        "title": "Automatizaciones e Integraciones",
+        "description": "Conectamos tu sitio con WhatsApp, CRM, analítica, bots, agendas y más.",
+        "benefit": "Ahorrá tiempo y ganá eficiencia"
+      },
+      "training": {
+        "title": "Capacitación y Entrega",
+        "description": "Te damos un recorrido en vivo y manuales para que gestiones tu web sin depender de nadie.",
+        "benefit": "Manejá tu sitio con seguridad"
+      }
+    },
+    "process": {
+      "title": "Confiá en el Proceso",
+      "step1": {
+        "title": "Llamada de descubrimiento",
+        "description": "Empezamos con una charla rápida para entender tus objetivos, desafíos y visión. Sin presión—solo claridad."
+      },
+      "step2": {
+        "title": "Estrategia y propuesta",
+        "description": "Diseñamos un plan personalizado con resultados claros, tiempos y presupuesto. Vas a saber exactamente qué esperar."
+      },
+      "step3": {
+        "title": "Diseño y desarrollo",
+        "description": "Damos vida a tu visión con un sitio web premium, rápido y alineado con tu marca y audiencia."
+      },
+      "step4": {
+        "title": "Revisión y ajustes",
+        "description": "Te mostramos una vista previa completa. Recibimos tu feedback y afinamos cada detalle hasta que todo esté perfecto."
+      },
+      "step5": {
+        "title": "Lanzamiento y autonomía",
+        "description": "Tu sitio sale en vivo—rápido, pulido y listo para convertir. Te entregamos todo con soporte para que tengas el control."
+      },
+      "cta": "Reservar llamada"
+    },
+    "finalCta": {
+      "title": "Tu próximo nivel empieza acá",
+      "description": "Imaginá una web que no solo impacta visualmente, sino que trabaja por vos 24/7 para hacer crecer tu negocio—con estrategia, rendimiento y elegancia. Estamos para hacerlo realidad.",
+      "cta": "Empecemos tu proyecto hoy"
+    }
+  },
+  "Footer": {
+    "description": "boutique digital de branding y tecnología de alto impacto",
+    "links": {
+      "privacy": "Política de privacidad",
+      "terms": "Términos de servicio",
+      "accessibility": "Declaración de accesibilidad"
+    },
+    "social": {
+      "title": "Seguinos en redes",
+      "tiktok": "TikTok",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "pinterest": "Pinterest",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "RealEstateWeb": {
+    "hero": {
+      "title": "Es hora de tener una presencia digital tan premium como las propiedades que ofrecés",
+      "description": "En el real estate de lujo, todo entra por los ojos—y tu sitio web es muchas veces la primera visita. Si carga lento, se ve anticuado o no transmite exclusividad, estás perdiendo clientes antes del primer contacto. Creamos sitios web de alto impacto que reflejan tu valor, muestran tus propiedades con elegancia y convierten visitas en consultas reales.",
+      "cta": "Agendá tu llamada de descubrimiento"
+    },
+    "problems": {
+      "title": "¿Te suena familiar?",
+      "items": [
+        "Tenés propiedades premium, pero tu sitio web se ve anticuado o genérico—y no refleja lo que realmente ofrecés.",
+        "Los potenciales clientes visitan tu web, pero no te contactan, y no sabés por qué.",
+        "Dependés demasiado de las redes sociales, pero sabés que necesitás una presencia digital propia y profesional.",
+        "Ya trabajaste con diseñadores web antes, pero terminaste con un sitio lento, confuso o difícil de actualizar.",
+        "Querés posicionarte como una marca de real estate de alto nivel, pero tu web actual no acompaña esa visión."
+      ]
+    },
+    "imagine": {
+      "title": "Ahora imaginate que pudieras...",
+      "items": [
+        "Lanzar una web tan exclusiva y elegante como las propiedades que ofrecés.",
+        "Impactar a tus clientes ideales desde el primer clic y recibir consultas de calidad—sin hacer esfuerzo extra.",
+        "Sentirte orgulloso de compartir tu sitio, sabiendo que potencia tu marca y genera confianza al instante.",
+        "Mostrar tus propiedades con claridad, velocidad y estilo—en cualquier dispositivo y momento.",
+        "Dejar de preocuparte por tu presencia online y enfocarte en cerrar negocios premium."
+      ]
+    },
+    "offer": {
+      "title": "Una presencia digital que vende por vos",
+      "description": "En Bit-A somos una boutique de ingeniería y diseño digital. Creamos sitios web de alto rendimiento y estética premium que elevan tu marca, atraen compradores de alto nivel y convierten visitas en oportunidades reales. No es solo una web—es un activo digital diseñado para hacer crecer tu negocio con elegancia y estrategia.",
+      "cta": "Creamos tu sitio premium"
+    },
+    "whatsIncluded": {
+      "title": "¿Qué incluye?",
+      "items": {
+        "customDesign": {
+          "title": "Diseño web de lujo personalizado",
+          "description": "Adaptado a tu marca y propiedades, para que puedas impresionar desde el primer vistazo."
+        },
+        "performance": {
+          "title": "Velocidad extrema de carga",
+          "description": "Carga en menos de 1 segundo, para que puedas retener visitas y mejorar tu posicionamiento en Google."
+        },
+        "mobileFirst": {
+          "title": "Experiencia mobile-first",
+          "description": "Optimizada para cualquier dispositivo, para que puedas lucir premium donde sea que te encuentren."
+        },
+        "convertingPages": {
+          "title": "Páginas de propiedades que convierten",
+          "description": "Diseños estratégicos, para que puedas transformar visitas en consultas reales."
+        },
+        "seoAnalytics": {
+          "title": "Base SEO + analítica integrada",
+          "description": "Estructura optimizada y herramientas de seguimiento, para que puedas ser encontrado y medir resultados."
+        },
+        "training": {
+          "title": "Capacitación y entrega personalizada",
+          "description": "Onboarding a medida, para que puedas tener control total y hacer cambios cuando lo necesites."
+        }
+      },
+      "cta": "Creamos tu sitio premium"
+    },
+    "about": {
+      "title": "Sobre Bit-A",
+      "description": "En Bit-A nos especializamos en crear experiencias digitales que venden estilo de vida, no solo propiedades. Somos una boutique de ingeniería y diseño, obsesionados con el rendimiento, la estética y los resultados. Sabemos que en el real estate, la primera impresión lo es todo—y muchas veces, tu web es esa primera visita. Por eso creamos sitios rápidos, elegantes y estratégicos, pensados para profesionales del real estate de alto nivel que quieren destacarse, generar confianza y cerrar con seguridad. Si tu objetivo es posicionarte en lo más alto del mercado, somos el equipo detrás de la presencia digital que te va a llevar ahí."
+    },
+    "pricing": {
+      "title": "¿Estás listo?",
+      "description": "Empecemos a construir tu sitio premium de real estate hoy. Trabajamos con un modelo de pago claro y flexible, pensado para que tengas control total desde el inicio:",
+      "items": [
+        "50% de pago inicial para comenzar el proyecto.",
+        "Pago por entregables, a medida que se completan las etapas.",
+        "Recibís el detalle completo del coste antes de arrancar, incluyendo servicios mensuales (como hosting) y anuales (como el dominio).",
+        "Si el dominio que querés está disponible, incluso puede quedarte gratis el primer año desde el comienzo.",
+        "Te acompañamos paso a paso, con total transparencia en cada decisión y presupuesto."
+      ],
+      "cta": "Agendá una llamada"
+    },
+    "faqs": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cuánto demora el proyecto?",
+          "answer": "La mayoría de los sitios web para real estate están listos en 3 a 5 semanas, dependiendo de la complejidad y la rapidez en los ciclos de feedback."
+        },
+        {
+          "question": "¿Puedo actualizar el sitio después del lanzamiento?",
+          "answer": "¡Sí! Entregamos tu web con capacitación y soporte, para que puedas gestionar propiedades, contenidos o cambios por tu cuenta, o pedirnos ayuda cuando lo necesites."
+        },
+        {
+          "question": "¿Cuál es la inversión total?",
+          "answer": "Depende de tus necesidades específicas, pero siempre te damos un presupuesto claro y cerrado desde el inicio. También detallamos costos mensuales (hosting) y anuales (dominio)."
+        },
+        {
+          "question": "¿Ustedes gestionan el dominio y el hosting?",
+          "answer": "Sí. Nos encargamos de todo. Y si el dominio que querés está disponible, podés tener el primer año gratis."
+        },
+        {
+          "question": "¿Qué pasa si quiero agregar más funciones más adelante?",
+          "answer": "Tu sitio está preparado para crecer. Podemos sumar páginas, herramientas o integraciones a medida que tu negocio lo requiera."
+        },
+        {
+          "question": "¿Ofrecen algún tipo de garantía?",
+          "answer": "Sí. Todos nuestros sitios web incluyen una garantía de 2 años que cubre problemas técnicos, errores de rendimiento y ajustes menores dentro del alcance original. Estamos para asegurarnos de que tu sitio siga funcionando al más alto nivel, incluso mucho después del lanzamiento."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Tu próximo cliente está a un clic de distancia",
+      "description": "Dejá de perder oportunidades por una web que no está a tu altura. Construyamos una presencia digital que refleje el valor de las propiedades que ofrecés—y la reputación que querés construir.",
+      "cta": "Agendá tu llamada de descubrimiento"
+    }
+  },
+  "LegalPages": {
+    "privacyPolicy": {
+      "title": "Política de Privacidad",
+      "lastUpdated": "Última actualización: 09-06-2025",
+      "sections": {
+        "intro": {
+          "title": "Tu privacidad es importante para nosotros",
+          "content": "Es política de Bit-A respetar tu privacidad con respecto a cualquier información que podamos recopilar mientras operamos nuestro sitio web. Esta Política de Privacidad se aplica a bit-a.com (en adelante, \"nosotros\", \"nuestro\" o \"bit-a.com\"). Respetamos tu privacidad y nos comprometemos a proteger la información de identificación personal que puedas proporcionarnos a través del sitio web. Hemos adoptado esta política de privacidad para explicar qué información puede recopilarse en nuestro sitio web, cómo utilizamos esta información y bajo qué circunstancias podemos divulgar la información a terceros."
+        },
+        "visitors": {
+          "title": "Visitantes del sitio web",
+          "content": "Como la mayoría de operadores de sitios web, Bit-A recopila información no identificable personalmente del tipo que los navegadores web y servidores típicamente ponen a disposición, como el tipo de navegador, preferencia de idioma, sitio de referencia y la fecha y hora de cada solicitud del visitante. El propósito de Bit-A al recopilar información no identificable personalmente es entender mejor cómo los visitantes de Bit-A utilizan su sitio web."
+        },
+        "pii": {
+          "title": "Información de identificación personal",
+          "content": "Ciertos visitantes a los sitios web de Bit-A eligen interactuar con Bit-A de maneras que requieren que Bit-A recopile información de identificación personal. La cantidad y tipo de información que Bit-A recopila depende de la naturaleza de la interacción."
+        },
+        "security": {
+          "title": "Seguridad",
+          "content": "La seguridad de tu información personal es importante para nosotros, pero recuerda que ningún método de transmisión por Internet, o método de almacenamiento electrónico es 100% seguro. Aunque nos esforzamos por utilizar medios comercialmente aceptables para proteger tu información personal, no podemos garantizar su seguridad absoluta."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "content": "Para enriquecer y perfeccionar tu experiencia en línea, Bit-A utiliza \"Cookies\", tecnologías similares y servicios proporcionados por otros para mostrar contenido personalizado, publicidad apropiada y almacenar tus preferencias en tu computadora."
+        },
+        "changes": {
+          "title": "Cambios en la política de privacidad",
+          "content": "Aunque la mayoría de los cambios probablemente sean menores, Bit-A puede cambiar su Política de Privacidad de vez en cuando, y a discreción exclusiva de Bit-A. Bit-A alienta a los visitantes a verificar frecuentemente esta página para cualquier cambio en su Política de Privacidad."
+        },
+        "contact": {
+          "title": "Información de contacto",
+          "content": "Si tienes alguna pregunta sobre nuestra Política de Privacidad, contáctanos por correo electrónico en ignacio.gomez@bit-a.com o por teléfono al +598 96 695 979."
+        }
+      }
+    },
+    "termsOfService": {
+      "title": "Términos de Servicio",
+      "lastUpdated": "Última actualización: 09-06-2025",
+      "sections": {
+        "intro": {
+          "title": "Bienvenido a Bit-A",
+          "content": "Estos términos de servicio rigen tu uso del sitio web bit-a.com operado por Bit-A. Al acceder o usar nuestro servicio, aceptas estar vinculado por estos términos. Si no estás de acuerdo con alguna parte de estos términos, entonces no puedes acceder al servicio."
+        },
+        "services": {
+          "title": "Servicios",
+          "content": "Bit-A ofrece servicios de diseño web, desarrollo, branding digital y automatización. Todos los servicios están sujetos a disponibilidad y pueden modificarse sin previo aviso."
+        },
+        "payments": {
+          "title": "Pagos y facturación",
+          "content": "Los pagos se realizan según los términos acordados en cada proyecto. Los precios están sujetos a cambios. El pago debe realizarse en los plazos establecidos en la propuesta comercial."
+        },
+        "intellectual": {
+          "title": "Propiedad intelectual",
+          "content": "El contenido, características y funcionalidad del servicio son y seguirán siendo propiedad exclusiva de Bit-A y sus licenciantes. El servicio está protegido por derechos de autor, marcas comerciales y otras leyes."
+        },
+        "liability": {
+          "title": "Limitación de responsabilidad",
+          "content": "En ningún caso Bit-A, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables por cualquier daño indirecto, incidental, especial, consecuencial o punitivo."
+        },
+        "termination": {
+          "title": "Terminación",
+          "content": "Podemos terminar o suspender tu acceso inmediatamente, sin previo aviso o responsabilidad, por cualquier motivo, incluyendo sin limitación si incumples los términos."
+        },
+        "contact": {
+          "title": "Información de contacto",
+          "content": "Si tienes alguna pregunta sobre estos Términos de Servicio, contáctanos en ignacio.gomez@bit-a.com o por teléfono al +598 96 695 979."
+        }
+      }
+    },
+    "accessibility": {
+      "title": "Declaración de Accesibilidad",
+      "lastUpdated": "Última actualización: Junio 2025",
+      "sections": {
+        "general": {
+          "title": "General",
+          "content": "Bit-A se esfuerza por garantizar que sus servicios sean accesibles para las personas con discapacidades. Bit-A ha invertido una cantidad significativa de recursos para ayudar a garantizar que su sitio web sea más fácil de usar y más accesible para las personas con discapacidades, con la firme creencia de que los esfuerzos de accesibilidad web ayudan a todos los usuarios y que cada persona tiene derecho a vivir con dignidad, igualdad, comodidad e independencia."
+        },
+        "commitment": {
+          "title": "Nuestro compromiso",
+          "content": "Bit-A continúa sus esfuerzos para mejorar constantemente la accesibilidad de su sitio y servicios con la creencia de que es nuestra obligación moral colectiva permitir el uso sin barreras, accesible y sin obstáculos también para aquellos de nosotros con discapacidades."
+        },
+        "feedback": {
+          "title": "Comentarios y asistencia",
+          "content": "Si experimentas dificultades con cualquier contenido en bit-a.com o necesitas asistencia con cualquier parte de nuestro sitio, contáctanos durante el horario comercial normal como se detalla a continuación y estaremos encantados de ayudarte."
+        },
+        "contact": {
+          "title": "Información de contacto",
+          "content": "Si deseas reportar un problema de accesibilidad, tienes alguna pregunta o necesitas asistencia, contáctanos en ignacio.gomez@bit-a.com o por teléfono al +598 96 695 979."
+        }
+      }
+    }
+  },
+  "ContactPage": {
+    "hero": {
+      "title": "Contacto",
+      "subtitle": "Empezamos con una conversación relajada para entender tus objetivos"
+    },
+    "whatToExpect": {
+      "title": "Qué podés esperar después de contactarnos",
+      "description": "Empezamos con una conversación relajada para entender tus objetivos, tu marca y los desafíos que enfrentás. Una vez que completes el formulario, revisamos tu mensaje y nos pondremos en contacto para agendar una llamada de descubrimiento. Sin compromiso—solo claridad sobre cómo podemos ayudarte."
+    },
+    "contactInfo": {
+      "title": "Información de contacto",
+      "emailTitle": "Email",
+      "phoneTitle": "Teléfono",
+      "addressTitle": "Dirección",
+      "email": "ignacio.gomez@bit-a.com",
+      "phone": "+598 2512 4860",
+      "address": "Montevideo, Uruguay"
+    },
+    "contactForm": {
+      "title": "Formulario de contacto",
+      "fields": {
+        "name": {
+          "label": "Nombre completo",
+          "placeholder": "Tu nombre completo"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "tu@email.com"
+        },
+        "company": {
+          "label": "Empresa",
+          "placeholder": "Nombre de tu empresa"
+        },
+        "phone": {
+          "label": "Teléfono",
+          "placeholder": "+54 9 11 1234-5678"
+        },
+        "projectType": {
+          "label": "Tipo de proyecto",
+          "options": {
+            "express": "Landing de lujo express",
+            "ecommerce": "E-commerce premium",
+            "corporate": "Web corporativa",
+            "automation": "Automatización & IA",
+            "branding": "Branding digital",
+            "diagnosis": "Diagnóstico digital",
+            "other": "Otro"
+          }
+        },
+        "budget": {
+          "label": "Presupuesto estimado",
+          "options": {
+            "under5k": "Menos de $5,000 USD",
+            "5k-10k": "$5,000 - $10,000 USD",
+            "10k-20k": "$10,000 - $20,000 USD",
+            "20k-50k": "$20,000 - $50,000 USD",
+            "over50k": "Más de $50,000 USD"
+          }
+        },
+        "timeline": {
+          "label": "Cuándo querés empezar",
+          "options": {
+            "asap": "Lo antes posible",
+            "month": "En el próximo mes",
+            "quarter": "En los próximos 3 meses",
+            "flexible": "Flexible"
+          }
+        },
+        "message": {
+          "label": "Mensaje",
+          "placeholder": "Contanos sobre tu proyecto, objetivos y cualquier desafío específico que estés enfrentando..."
+        }
+      },
+      "submit": "Enviar mensaje",
+      "sending": "Enviando..."
+    },
+    "successMessage": {
+      "title": "¡Mensaje enviado!",
+      "description": "Gracias por contactarnos. Revisaremos tu mensaje y nos pondremos en contacto contigo dentro de las próximas 24 horas para agendar una llamada de descubrimiento."
+    },
+    "errorMessage": {
+      "title": "Error al enviar",
+      "description": "Hubo un problema al enviar tu mensaje. Por favor, intentá nuevamente o contactanos directamente por email."
+    }
+  }
+} 
