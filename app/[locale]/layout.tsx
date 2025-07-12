@@ -59,6 +59,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
       <body className={`${manrope.variable} antialiased`}>
         <LenisProvider>
           <SmoothScrollProvider>
