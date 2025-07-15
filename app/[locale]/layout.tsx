@@ -8,6 +8,7 @@ import { routing } from '../../i18n/routing';
 import Navbar from '../components/Navbar';
 import SmoothScrollProvider from '../components/SmoothScrollProvider';
 import LenisProvider from '../components/Providers/LenisProvider';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -61,6 +62,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <head>
         <link rel="manifest" href="/site.webmanifest" />
+        <GoogleAnalytics gaId="G-PZ93FY9JWT" />
       </head>
       <body className={`${manrope.variable} antialiased`}>
         <LenisProvider>
