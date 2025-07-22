@@ -5,8 +5,6 @@ import { gsap } from 'gsap';
 import { env } from '@/lib/env';
 
 export default function CustomCursor() {
-  if (!env.useCursor)
-    return null;
   const cursorRef = useRef<HTMLDivElement>(null);
   const followerRef = useRef<HTMLDivElement>(null);
   const [isHovering, setIsHovering] = useState(false);
@@ -42,6 +40,7 @@ export default function CustomCursor() {
   }, []);
 
   useEffect(() => {
+    if (!env.useCursor) return;
     const cursor = cursorRef.current;
     const follower = followerRef.current;
 
@@ -239,7 +238,7 @@ export default function CustomCursor() {
     // Observar cambios en el DOM para elementos dinámicos
     const observer = new MutationObserver(handleHoverElements);
     observer.observe(document.body, { childList: true, subtree: true });
-
+    
     return () => {
       if (frameRef.current) {
         cancelAnimationFrame(frameRef.current);

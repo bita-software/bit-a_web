@@ -24,12 +24,10 @@
     @apply font-[family-name:var(--font-manrope)];
     background-color: rgb(var(--background));
     color: rgb(var(--foreground));
-    cursor: var(--cursor, auto); /*Ocultar cursor por defecto */
   }
   
   /* Mostrar cursor por defecto en elementos interactivos específicos */
   input, textarea, [contenteditable] {
-    cursor: text !important;
   }
   
   html {
@@ -37,7 +35,6 @@
   }
 
   button, input, textarea, a, select, [contenteditable] {
-    cursor: var(--cursor, auto);
   }
 
   ::-moz-selection { /* Code for Firefox */

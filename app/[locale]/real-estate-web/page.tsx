@@ -4,10 +4,9 @@ import { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import dynamic from 'next/dynamic';
 
 // Importar componentes
-const CustomCursor = dynamic(() => import('../../components/CustomCursor'), { ssr: false });
+//const CustomCursor = dynamic(() => import('../../components/CustomCursor'), { ssr: false });
 import ModularGrid, { GridItem } from '../../components/ModularGrid';
 import Footer from '../../components/Footer';
 import CTAButton from '../../components/CTAButton';
@@ -118,7 +117,6 @@ export default function RealEstateWebPage() {
 
   return (
     <div ref={containerRef} className="min-h-screen bg-[#080808] overflow-x-hidden">
-      <CustomCursor />
       
       <ModularGrid variant="default" className="min-h-screen" showGrid={false}>
         {/* Hero Section */}

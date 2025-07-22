@@ -4,10 +4,9 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { useTranslations } from 'next-intl';
-import dynamic from 'next/dynamic';
 
 // Importar componentes de forma dinámica para evitar SSR issues
-const CustomCursor = dynamic(() => import('../../components/CustomCursor'), { ssr: false });
+//const CustomCursor = dynamic(() => import('../../components/CustomCursor'), { ssr: false });
 
 // Importar grilla modular
 import ModularGrid, { GridItem } from '../../components/ModularGrid';
@@ -104,7 +103,6 @@ export default function AboutPage() {
 
   return (
     <div ref={containerRef} className="min-h-screen bg-[#080808] overflow-x-hidden">
-      <CustomCursor />
       
       <ModularGrid variant="default" className="min-h-screen" showGrid={true}>
         {/* Hero Section */}
