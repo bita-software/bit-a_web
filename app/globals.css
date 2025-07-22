@@ -24,7 +24,7 @@
     @apply font-[family-name:var(--font-manrope)];
     background-color: rgb(var(--background));
     color: rgb(var(--foreground));
-    cursor: none; /* Ocultar cursor por defecto */
+    /*cursor: none; Ocultar cursor por defecto */
   }
   
   /* Mostrar cursor por defecto en elementos interactivos específicos */
@@ -37,7 +37,7 @@
   }
 
   button, input, textarea, a, select, [contenteditable] {
-    cursor: none;
+    /*cursor: none;*/
   }
 
   ::-moz-selection { /* Code for Firefox */
