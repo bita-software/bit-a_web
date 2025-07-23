@@ -3,10 +3,9 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import dynamic from 'next/dynamic';
 
 // Importar componentes de forma dinámica para evitar SSR issues
-const CustomCursor = dynamic(() => import('../components/CustomCursor'), { ssr: false });
+//const CustomCursor = dynamic(() => import('../components/CustomCursor'), { ssr: false });
 
 // Importar grilla modular
 import ModularGrid, { GridItem } from '../components/ModularGrid';
@@ -133,7 +132,6 @@ export default function Home() {
   return (
     <div ref={containerRef} className={`min-h-screen bg-[#000000] overflow-x-hidden`}>
       {/* Cursor personalizado */}
-      <CustomCursor />
       
   
       

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
+import { env } from '@/lib/env';
 
 export default function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
@@ -39,6 +40,7 @@ export default function CustomCursor() {
   }, []);
 
   useEffect(() => {
+    if (!env.useCursor) return;
     const cursor = cursorRef.current;
     const follower = followerRef.current;
 
@@ -236,7 +238,7 @@ export default function CustomCursor() {
     // Observar cambios en el DOM para elementos dinámicos
     const observer = new MutationObserver(handleHoverElements);
     observer.observe(document.body, { childList: true, subtree: true });
-
+    
     return () => {
       if (frameRef.current) {
         cancelAnimationFrame(frameRef.current);
