@@ -8,10 +8,10 @@ export default function Footer(props: React.ComponentPropsWithoutRef<'footer'>) 
   const tNav = useTranslations('Navigation');
   
   const socialLinks = [
-    { name: 'TikTok', href: 'https://www.tiktok.com/@codigochamo' },
-    { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61575155107794' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/bit-a/' },
     { name: 'Instagram', href: 'https://www.instagram.com/bita.software/' },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/bit-a/' }
+    { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61575155107794' },
+    { name: 'TikTok', href: 'https://www.tiktok.com/@codigochamo' },
   ];
 
   return (

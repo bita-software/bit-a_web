@@ -30,7 +30,9 @@ export default function NavItem({ item, isActive, onClick, className = '' }: Nav
   };
 
   const handleClick = (e: React.MouseEvent) => {
-    if (item.submenu && item.submenu.length > 0) {
+    // Si tiene submenu pero también tiene href, navegamos al enlace principal
+    // El submenu se maneja solo con hover
+    if (item.submenu && item.submenu.length > 0 && !item.href) {
       e.preventDefault();
       setIsSubmenuOpen(!isSubmenuOpen);
     }
