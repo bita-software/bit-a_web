@@ -167,11 +167,6 @@ export default function Home() {
           </ModularGrid>
         </GridItem>
 
-        {/* Lead Magnet Section - Centrado, 10 columnas */}
-        <GridItem start={2} end={12} className="relative">
-          <LeadMagnetSection ref={leadMagnetRef} id="recursos" />
-        </GridItem>
-
         {/* Final CTA Section - Grilla asimétrica */}
         <GridItem span={12} className="relative" id="cta">
           <ModularGrid variant="asymmetric" className="py-20" showGrid={true}>
