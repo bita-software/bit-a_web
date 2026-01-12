@@ -70,6 +70,7 @@
     "cases": {
       "stocklink": {
         "title": "Stocklink · Retail & Distribución",
+        "description": "Transformamos operaciones de distribución tradicionales en sistemas inteligentes que eliminan errores y maximizan rentabilidad.",
         "challenge": "El reto",
         "challengeDescription": "Las distribuidoras dependían de hojas de cálculo y llamadas telefónicas, provocando quiebres de stock y ventas perdidas.",
         "impact": "Impacto",
@@ -77,13 +78,23 @@
       },
       "herreria": {
         "title": "Herrería FC · Metalworks premium",
+        "description": "Elevamos la presencia digital de artesanos premium, creando experiencias web que reflejan la calidad excepcional de su trabajo.",
         "challenge": "El reto",
         "challengeDescription": "Dependían solo de instagram; sin sitio web profesional no lograban convencer a clientes de alto valor.",
         "impact": "Impacto",
         "impactDescription": "• Mágen premium desde el primer clic\n• Flujo constante de consultas online\n• Cotizaciones de mayor valor"
+      },
+      "urusportsummit": {
+        "title": "UrusportSummit 2026 · Event Website",
+        "description": "Desarrollamos la presencia digital completa para eventos deportivos premium, desde la concepción estratégica hasta la ejecución técnica impecable.",
+        "challenge": "El reto",
+        "challengeDescription": "Crear una página web desde cero para un evento deportivo premium, con planificación estratégica, definición de público objetivo y optimizaciones avanzadas.",
+        "impact": "Impacto",
+        "impactDescription": "• Página web completa desde cero\n• Optimización SEO y performance premium\n• Excelente accesibilidad web\n• Experiencia de usuario excepcional"
       }
     },
-    "cta": "Solicita diagnóstico gratis"
+    "cta": "Solicita diagnóstico gratis",
+    "visitWebsite": "Visitar sitio web"
   },
   "LeadMagnet": {
     "title": "Mini-curso por correo:",
