@@ -16,7 +16,6 @@ import ProblemSection from '../components/ProblemSection';
 import ServicesSection from '../components/ServicesSection';
 import AboutSection from '../components/AboutSection';
 import CaseStudiesSection from '../components/CaseStudiesSection';
-import LeadMagnetSection from '../components/LeadMagnetSection';
 import FinalCTASection from '../components/FinalCTASection';
 import Footer from '../components/Footer';
 
