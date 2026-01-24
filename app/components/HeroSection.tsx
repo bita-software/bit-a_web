@@ -47,7 +47,7 @@ const HeroSection = forwardRef<HTMLElement, React.ComponentPropsWithoutRef<'sect
           <div className="flex flex-col items-center">
             <AnimatedTitle
               as="h1"
-              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white tracking-tighter leading-[0.9] select-none uppercase"
+              className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white tracking-tighter leading-[0.9] select-none uppercase"
               useScrollTrigger={false}
               delay={0.1}
               stagger={0.05}
@@ -71,16 +71,14 @@ const HeroSection = forwardRef<HTMLElement, React.ComponentPropsWithoutRef<'sect
               <CTAButton
                 variant="primary"
                 size="medium"
-                className="w-full sm:min-w-[180px] bg-white text-black hover:bg-zinc-200 transition-colors duration-300 border-none font-semibold tracking-wide"
               >
                 {t('cta.schedule')}
               </CTAButton>
             </Link>
             <Link href="/#casos-de-estudio" className="w-full sm:w-auto">
               <CTAButton
-                variant="outline"
+                variant="glass"
                 size="medium"
-                className="w-full sm:min-w-[180px] border-white/20 text-white hover:bg-white/5 transition-all duration-300 backdrop-blur-sm font-medium tracking-wide"
               >
                 {t('cta.portfolio')}
               </CTAButton>

@@ -6,7 +6,6 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from '../components/Navbar';
-import SmoothScrollProvider from '../components/SmoothScrollProvider';
 import LenisProvider from '../components/Providers/LenisProvider';
 import { GoogleAnalytics } from '@next/third-parties/google'
 
@@ -66,14 +65,12 @@ export default async function RootLayout({
       </head>
       <body className={`${manrope.variable} antialiased`} suppressHydrationWarning>
         <LenisProvider>
-          <SmoothScrollProvider>
-            <NextIntlClientProvider messages={messages}>
-              <Navbar />
-              <div className=' bg-[#11111177] border border-[#ffffff11] max-w-7xl mx-auto rounded-[3rem] overflow-hidden mt-[7rem]'>
-              {children}
-              </div>
-            </NextIntlClientProvider>
-          </SmoothScrollProvider>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            <div className=' bg-[#11111177] border border-[#ffffff11] max-w-7xl mx-auto rounded-[3rem] overflow-hidden mt-[7rem]'>
+            {children}
+            </div>
+          </NextIntlClientProvider>
         </LenisProvider>
       </body>
     </html>
