@@ -189,9 +189,9 @@ interface SubMenuItem {
   label: 'resources',
   submenu: [
     {
-      id: 'blog',
-      label: 'blog',
-      href: '/blog',
+      id: 'insights',
+      label: 'insights',
+      href: '/insights',
       icon: '📝'
     },
     {

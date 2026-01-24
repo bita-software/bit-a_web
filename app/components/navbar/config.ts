@@ -8,11 +8,17 @@ export const navConfig: NavConfig = {
       href: '/services',
       submenu: [
         {
+          id: 'realEstateWeb',
+          label: 'realEstateWeb',
+          href: '/real-estate-web',
+          description: 'realEstateWebDescription',
+        },
+        {
           id: 'express',
           label: 'expressLanding',
           href: '/services#services',
           description: 'expressDescription',
-          isAnchor: true, 
+          isAnchor: true,
         },
         {
           id: 'ecommerce',
@@ -49,18 +55,17 @@ export const navConfig: NavConfig = {
           description: 'diagnosisDescription',
           isAnchor: true,
         },
-        {
-          id: 'realEstateWeb',
-          label: 'realEstateWeb',
-          href: '/real-estate-web',
-          description: 'realEstateWebDescription',
-        },
       ]
     },
     {
       id: 'realEstateWeb',
       label: 'realEstateWeb',
       href: '/real-estate-web'
+    },
+    {
+      id: 'insights',
+      label: 'insights',
+      href: '/insights'
     },
     {
       id: 'about',
@@ -71,6 +76,7 @@ export const navConfig: NavConfig = {
       id: 'contact',
       label: 'contact',
       href: '/contact',
+      isButton: true,
     }
   ],
   logo: {
@@ -92,7 +98,7 @@ export const navConfig: NavConfig = {
 // Función para obtener configuración con traducciones
 export const getNavConfigWithTranslations = (t: (key: string) => string): NavConfig => {
   const config = { ...navConfig };
-  
+
   // Traducir elementos principales
   config.mainNavItems = config.mainNavItems.map(item => ({
     ...item,

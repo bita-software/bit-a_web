@@ -4,6 +4,7 @@
     "about": "About",
     "cases": "Cases",
     "contact": "Contact",
+    "insights": "Insights",
     "realEstateWeb": "Real state web",
     "realEstateWebDescription": "Luxury real state website",
     "expressLanding": "Express luxury landing",
@@ -20,16 +21,18 @@
     "diagnosisDescription": "Free assessment of your digital presence"
   },
   "Hero": {
+    "volLabel": "SHIFT + PURPOSE",
     "title": {
-      "line1": "We turn ambitious",
-      "line2": "brands into digital legends"
+      "line1": "Your digital presence should be",
+      "line2": "as impeccable as your service."
     },
-    "subtitle": "Luxury sites that move hearts and metrics",
+    "subtitle": "We bridge the gap between your company's true value and what the world sees online. Boutique development for brands that accept nothing less than excellence.",
     "cta": {
-      "schedule": "Schedule now",
-      "portfolio": "View projects"
+      "schedule": "Start Project",
+      "portfolio": "Explore Success Stories"
     },
-    "scrollIndicator": "Scroll to see more"
+    "scrollIndicator": "Scroll to explore",
+    "socialProof": "Strategic partner for companies in Uruguay"
   },
   "Problem": {
     "title": "Your site doesn't convey exclusivity,",
@@ -572,7 +575,7 @@
       "description": "There was a problem sending your message. Please try again or contact us directly via email."
     }
   },
-  "Blog": {
+  "Insights": {
     "title": "Strategic Insights",
     "intentFilter": "\"Content designed for leaders looking to transform technology into an unreachable competitive advantage.\"",
     "noImage": "No Image",

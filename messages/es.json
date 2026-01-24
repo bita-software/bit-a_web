@@ -4,6 +4,7 @@
     "about": "Nosotros",
     "cases": "Casos",
     "contact": "Contacto",
+    "insights": "Perspectivas",
     "realEstateWeb": "Real state web",
     "realEstateWebDescription": "Sitio web para bienes raíces de lujo",
     "expressLanding": "Landing de lujo express",
@@ -20,16 +21,18 @@
     "diagnosisDescription": "Evaluación gratuita de tu presencia digital"
   },
   "Hero": {
+    "volLabel": "SHIFT + PURPOSE",
     "title": {
-      "line1": "Convertimos marcas ambiciosas",
-      "line2": "en leyendas digitales"
+      "line1": "Tu presencia digital debe ser",
+      "line2": "tan impecable como tu servicio."
     },
-    "subtitle": "Sitios de lujo que mueven corazones y métricas",
+    "subtitle": "Cerramos la brecha entre el valor real de tu empresa y lo que el mundo ve online. Desarrollo boutique para marcas que no aceptan menos que la excelencia.",
     "cta": {
-      "schedule": "Agendar ahora",
-      "portfolio": "Ver proyectos"
+      "schedule": "Iniciar Proyecto",
+      "portfolio": "Explorar Casos de Éxito"
     },
-    "scrollIndicator": "Desliza para ver más"
+    "scrollIndicator": "Desliza para ver más",
+    "socialProof": "Partner estratégico para empresas en Uruguay"
   },
   "Problem": {
     "title": "Tu sitio no transmite exclusividad,",
@@ -110,7 +113,7 @@
   },
   "AboutPage": {
     "title": {
-      "line1": "tecnología que hace",
+      "line1": "Tecnología que hace",
       "line2": "vibrar tu marca"
     },
     "intro": {
@@ -572,7 +575,7 @@
       "description": "Hubo un problema al enviar tu mensaje. Por favor, intentá nuevamente o contactanos directamente por email."
     }
   },
-  "Blog": {
+  "Insights": {
     "title": "Perspectivas Estratégicas",
     "intentFilter": "\"Contenido diseñado para líderes que buscan transformar la tecnología en una ventaja competitiva inalcanzable.\"",
     "noImage": "Sin Imagen",

@@ -54,12 +54,12 @@ export default function Footer(props: React.ComponentPropsWithoutRef<'footer'>) 
                 >
                   {tNav('about')}
                 </Link>
-                <a 
-                  href="#casos"
+                <Link 
+                  href="/#casos-de-estudio"
                   className="text-white/60 hover:text-white transition-colors text-sm sm:text-base"
                 >
                   {tNav('cases')}
-                </a>
+                </Link>
                 <a 
                   href="#contacto"
                   className="text-white/60 hover:text-white transition-colors text-sm sm:text-base"

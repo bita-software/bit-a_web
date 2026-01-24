@@ -22,7 +22,7 @@ const VISION_LEVEL_LABELS: Record<string, Record<string, string>> = {
 
 export default async function BlogPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const t = await getTranslations({ locale, namespace: 'Blog' })
+  const t = await getTranslations({ locale, namespace: 'Insights' })
   const payload = await getPayload({ config: configPromise })
   const posts = await payload.find({
     collection: 'posts',
@@ -51,7 +51,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
             
             {/* Image Column */}
             <div className="lg:col-span-5 h-[260px] lg:h-[280px]">
-               <Link href={`/${locale}/blog/${post.slug}`} className="block w-full h-full">
+               <Link href={`/${locale}/insights/${post.slug}`} className="block w-full h-full">
                 {post.meta?.image && typeof post.meta.image !== 'string' && post.meta.image.url ? (
                   <ThreeDImageCard 
                     src={post.meta.image.url} 
@@ -72,21 +72,21 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
               {/* Category & Vision Level */}
               <div className="flex items-center gap-4 mb-4">
                  {post.category && typeof post.category !== 'string' && (
-                    <span className="text-xs tracking-[0.2em] font-medium text-blue-400 uppercase">
+                  <span className="text-xs tracking-[0.2em] font-medium text-blue-400 uppercase">
                       {post.category.title}
                     </span>
                  )}
                  {post.visionLevel && (
-                    <span className="flex items-center gap-1.5 text-[10px] sm:text-xs px-2.5 py-1 border border-white/10 rounded-full text-gray-400 font-mono tracking-widest bg-white/5 backdrop-blur-sm group-hover:border-blue-500/30 transition-colors">
-                      <span className="w-1 h-1 rounded-full bg-blue-400 shadow-[0_0_5px_rgba(96,165,250,0.8)]"></span>
+                    <span className="flex items-center gap-1.5 text-[10px] sm:text-xs px-2.5 py-1 border border-white/10 rounded-full text-gray-400 font-mono tracking-widest bg-white/5 backdrop-blur-sm group-hover:border-blue-400/30 transition-colors">
+                      <span className="w-1 h-1 rounded-full bg-blue-400 shadow-[0_0_5px_rgba(11,64,255,0.8)]"></span>
                       {VISION_LEVEL_LABELS[post.visionLevel]?.[locale] || post.visionLevel}
                     </span>
                  )}
               </div>
 
               {/* Title */}
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4 leading-tight group-hover:text-blue-400 transition-colors">
-                <Link href={`/${locale}/blog/${post.slug}`}>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4 leading-tight group-hover:text-[#eaeaea] transition-colors">
+                <Link href={`/${locale}/insights/${post.slug}`}>
                   {post.title}
                 </Link>
               </h2>

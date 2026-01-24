@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from '../../../i18n/routing';
 import { NavItem as NavItemType } from './types';
+import Button from '../Button';
 
 interface NavItemProps {
   item: NavItemType;
@@ -103,6 +104,15 @@ export default function NavItem({ item, isActive, onClick, className = '' }: Nav
           >
             {content}
           </a>
+        ) : item.isButton ? (
+          <Button
+            onClick={handleClick}
+            variant='glass'
+          >
+            <Link href={item.href}>
+            {content}
+            </Link>
+          </Button>
         ) : (
           <Link
             href={item.href}

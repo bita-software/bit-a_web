@@ -1,0 +1,80 @@
+{
+    "hero_section": {
+        "atmosphere": {
+            "style": "Dark Minimalist / High-End Tech",
+            "background_color": "#000000",
+            "overlay_texture": "Subtle digital grain / noise 2% opacity",
+            "layout": "Centered vertical stack with maximum whitespace"
+        },
+        "typography_hierarchy": {
+            "headline": {
+                "text": "Convertimos marcas ambiciosas en leyendas digitales",
+                "font_family": "Inter Tight or Helvetica Now Display",
+                "font_size": "clamp(3.5rem, 8vw, 6rem)",
+                "line_height": "1.1",
+                "letter_spacing": "-0.04em",
+                "font_weight": "600",
+                "text_transform": "none",
+                "color": "#FFFFFF",
+                "italic_emphasis": {
+                    "words": [
+                        "leyendas digitales"
+                    ],
+                    "font_style": "italic",
+                    "font_weight": "300"
+                }
+            },
+            "subheadline": {
+                "text": "Sitios de lujo que mueven corazones y métricas",
+                "font_size": "1.25rem",
+                "letter_spacing": "0.05em",
+                "color": "#A1A1AA",
+                "margin_top": "2rem"
+            }
+        },
+        "interactive_elements": {
+            "primary_button": {
+                "label": "Agendar ahora",
+                "style": "Pill shape",
+                "background": "Linear gradient (pure white to off-white)",
+                "text_color": "#000000",
+                "glow_effect": "Soft radial white glow (opacity 0.15)",
+                "hover_state": "Slight scale up 1.05"
+            },
+            "secondary_button": {
+                "label": "Ver proyectos",
+                "style": "Pill shape / Ghost",
+                "border": "1px solid #3F3F46",
+                "text_color": "#FFFFFF",
+                "hover_state": "Background fill white / text black"
+            }
+        },
+        "visual_assets": {
+            "background_element": {
+                "type": "Abstract Mesh Gradient",
+                "position": "Centered behind text",
+                "colors": [
+                    "#18181B",
+                    "#000000"
+                ],
+                "animation": "Ultra-slow pulse (30s loop)"
+            },
+            "quality_badge": {
+                "icon": "Geometric Star / Spark",
+                "label": "SHIFT + PURPOSE",
+                "position": "Top floating or Footer of Hero",
+                "font_size": "0.75rem",
+                "letter_spacing": "0.2em"
+            }
+        },
+        "conversion_optimized_ux": {
+            "scroll_indicator": {
+                "text": "DESLIZA PARA VER MÁS",
+                "font_size": "0.7rem",
+                "letter_spacing": "0.3em",
+                "color": "#52525B",
+                "position": "Bottom center"
+            }
+        }
+    }
+}

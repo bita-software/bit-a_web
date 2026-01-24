@@ -1,99 +1,108 @@
 'use client';
 
-import { forwardRef } from 'react';
+import { forwardRef, useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import AnimatedTitle from './AnimatedTitle';
 import CTAButton from './CTAButton';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 
 const HeroSection = forwardRef<HTMLElement, React.ComponentPropsWithoutRef<'section'>>((props, ref) => {
   const t = useTranslations('Hero');
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      setMousePosition({ x: e.clientX, y: e.clientY });
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
 
   return (
-    <section ref={ref} {...props} className={`min-h-screen flex flex-col relative px-4 sm:px-6 lg:px-8 xl:px-12 z-20 py-8 sm:py-12 lg:py-16 grain subtle-glow ${props.className || ''}`}>
-      {/* Elementos decorativos sutiles - reposicionados para evitar overlaps */}
-      <div className="absolute inset-0 pointer-events-none z-0 hidden lg:block">
-        <div className="absolute top-1/3 left-1/6 w-px h-40 bg-gradient-to-b from-transparent via-white/8 to-transparent"></div>
-        <div className="absolute top-1/4 right-1/6 w-px h-32 bg-gradient-to-b from-transparent via-white/6 to-transparent"></div>
-        <div className="absolute bottom-1/3 left-2/3 w-px h-24 bg-gradient-to-b from-transparent via-white/4 to-transparent"></div>
-      </div>
+    <section ref={ref} {...props} className={`min-h-screen flex flex-col relative px-4 sm:px-6 lg:px-8 xl:px-12 z-20 py-8 sm:py-12 lg:py-16 bg-black overflow-hidden ${props.className || ''}`}>
+      {/* Background Subtle Glow following cursor */}
+      <div 
+        className="pointer-events-none fixed inset-0 z-0 transition-opacity duration-300 opacity-40"
+        style={{
+          background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(255,255,255,0.06), transparent 40%)`
+        }}
+      />
+      
+      {/* Static ambient glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[50vh] bg-gradient-to-b from-white/5 to-transparent opacity-30 z-0 pointer-events-none" />
 
-      {/* Contenedor principal con layout flexible seguro */}
-      <div className="flex flex-col justify-center items-center max-w-7xl mx-auto w-full relative z-10 min-h-0 h-full">
-        <div className="text-center px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12 space-y-8 sm:space-y-10 lg:space-y-12 w-full max-w-6xl">
-          {/* Título principal con efectos premium */}
-          <div className="space-y-6 sm:space-y-8">
+      {/* Main Content */}
+      <div className="flex-grow flex flex-col justify-center items-center max-w-7xl mx-auto w-full relative z-10">
+        
+        {/* Vol Label */}
+        <div className="mb-8 overflow-hidden">
+          <span className="inline-block text-white/40 text-[10px] sm:text-xs font-medium tracking-[0.3em] uppercase border border-white/10 px-3 py-1 rounded-full backdrop-blur-sm">
+            {t('volLabel')}
+          </span>
+        </div>
+
+        <div className="text-center space-y-8 sm:space-y-12 max-w-6xl mx-auto">
+          {/* Headline */}
+          <div className="flex flex-col items-center">
             <AnimatedTitle
               as="h1"
-              className="hero-title text-2xl sm:text-3xl md:text-5xl lg:text-7xl xl:text-8xl font-light text-white leading-snug tracking-tight select-none"
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white tracking-tighter leading-[0.9] select-none uppercase"
               useScrollTrigger={false}
-              delay={0.2}
-              stagger={0.15}
-              duration={2}
-              blurAmount={8}
+              delay={0.1}
+              stagger={0.05}
+              duration={1.5}
             >
-              <span className="block mb-4 sm:mb-2 font-extralight leading-snug overflow-wrap-anywhere">{t('title.line1')}</span>
-              <span className="block text-gradient mb-6 sm:mb-4 font-light italic tracking-wide leading-snug overflow-wrap-anywhere" style={{ fontStyle: 'italic', fontOpticalSizing: 'auto', textRendering: 'optimizeLegibility' }}>{t('title.line2')}</span></AnimatedTitle>
-
-            {/* Línea decorativa sutil */}
-            <div className="w-24 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent mx-auto"></div>
+              <span className="block">{t('title.line1')}</span>
+              <span className="block text-white/90">{t('title.line2')}</span>
+            </AnimatedTitle>
           </div>
 
-          {/* Subtítulo refinado */}
-          <div className="max-w-2xl lg:max-w-3xl mx-auto px-4 sm:px-0">
-            <p className="hero-subtitle text-lg sm:text-xl md:text-2xl lg:text-3xl text-white/70 leading-relaxed font-light tracking-wide">
+          {/* Subheadline */}
+          <div className="max-w-2xl mx-auto px-4">
+            <p className="text-base sm:text-lg md:text-xl text-zinc-400 font-light leading-relaxed tracking-wide">
               {t('subtitle')}
             </p>
           </div>
 
-          {/* CTAs con diseño premium */}
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-8 justify-center items-center pt-6 sm:pt-8 lg:pt-10 w-full max-w-lg sm:max-w-none">
-            <Link href="/#schedule" className="group w-full sm:w-auto">
+          {/* CTAs */}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center pt-8">
+            <Link href="/#schedule" className="w-full sm:w-auto">
               <CTAButton
                 variant="primary"
                 size="medium"
-                className="hero-cta pearl-button px-8 sm:px-10 lg:px-12 py-4 sm:py-5 text-base sm:text-lg font-medium tracking-wide w-full sm:min-w-[200px] group-hover:scale-105 transition-all duration-500"
+                className="w-full sm:min-w-[180px] bg-white text-black hover:bg-zinc-200 transition-colors duration-300 border-none font-semibold tracking-wide"
               >
                 {t('cta.schedule')}
               </CTAButton>
             </Link>
-            <Link href="/#casos-de-estudio" className="group w-full sm:w-auto">
+            <Link href="/#casos-de-estudio" className="w-full sm:w-auto">
               <CTAButton
                 variant="outline"
                 size="medium"
-                className="hero-cta pearl-border px-8 sm:px-10 lg:px-12 py-4 sm:py-5 text-base sm:text-lg font-medium tracking-wide w-full sm:min-w-[200px] group-hover:scale-105 transition-all duration-500"
+                className="w-full sm:min-w-[180px] border-white/20 text-white hover:bg-white/5 transition-all duration-300 backdrop-blur-sm font-medium tracking-wide"
               >
                 {t('cta.portfolio')}
               </CTAButton>
             </Link>
           </div>
         </div>
-
       </div>
 
-      {/* Scroll Indicator refinado - reposicionado para evitar overlaps */}
-      <div className="absolute bottom-8 sm:bottom-10 md:bottom-12 lg:bottom-16 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-3 sm:gap-4 opacity-70 hover:opacity-100 transition-all duration-500 group z-30">
-        <span className="text-white/50 text-xs sm:text-sm font-light tracking-[0.2em] uppercase">
-          {t('scrollIndicator')}
-        </span>
-        <div className="relative">
-          <div className="w-8 h-8 sm:w-10 sm:h-10 border border-white/20 rounded-full flex items-center justify-center group-hover:border-white/40 transition-all duration-500">
-            <svg
-              className="w-3 h-3 sm:w-4 sm:h-4 text-white/50 group-hover:text-white/70 transition-all duration-500"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={1.5}
-                d="M19 14l-7 7m0 0l-7-7m7 7V3"
-              />
-            </svg>
-          </div>
-          {/* Anillo decorativo sutil */}
-          <div className="absolute inset-0 border border-white/10 rounded-full scale-150 opacity-30 group-hover:opacity-50 group-hover:scale-175 transition-all duration-700"></div>
+      {/* Social Proof & Scroll Indicator Footer */}
+      <div className="relative z-10 w-full flex flex-col items-center gap-8 pb-8">
+        
+        {/* Scroll Indicator */}
+        <div className="flex flex-col items-center gap-3 opacity-50 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+          <div className="w-px h-12 bg-gradient-to-b from-transparent via-white/50 to-transparent animate-pulse" />
+          <span className="text-[10px] uppercase tracking-[0.2em] text-white/60">{t('scrollIndicator')}</span>
+        </div>
+
+        {/* Social Proof Line */}
+        <div className="w-full border-t border-white/5 pt-6 mt-4">
+          <p className="text-center text-xs sm:text-sm text-zinc-500 font-mono tracking-wider uppercase">
+            {t('socialProof')}
+          </p>
         </div>
       </div>
     </section>

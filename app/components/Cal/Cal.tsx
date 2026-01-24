@@ -6,16 +6,14 @@ export default function CalReact({scheduleId}: {scheduleId: string}) {
 
   useEffect(() => {
     (async function () {
-      const cal = await getCalApi({"namespace":"30min"});
+      const cal = await getCalApi({"namespace": scheduleId});
       cal("ui", {"hideEventTypeDetails":true,"layout":"month_view"});
     })();
   }, [])
     return <Cal namespace={scheduleId}
     calLink={`bit-a/${scheduleId}`}
-    style={{width:"100%",height:"100%",overflow:"scroll"}}
+    style={{width:"100%",height:"100%",overflow:"hidden"}}
     config={{"layout":"month_view"}}
-    
-    
   />;
 };
   

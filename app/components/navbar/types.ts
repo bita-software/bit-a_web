@@ -5,6 +5,7 @@ export interface NavItem {
   submenu?: SubMenuItem[];
   isExternal?: boolean;
   isAnchor?: boolean;
+  isButton?: boolean;
   target?: '_blank' | '_self';
   className?: string;
 }

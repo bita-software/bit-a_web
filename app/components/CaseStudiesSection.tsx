@@ -240,7 +240,7 @@ const CaseStudiesSection = forwardRef<HTMLElement>((props, ref) => {
           {/* Case 1 - Stocklink */}
           <div className="mb-32">
             <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-              <Link href="https://www.ahlersycastro.com/">
+              <Link href="https://www.ahlersycastro.com/" target="_blank">
                 <div
                   ref={addToRefs}
                   className="group relative cursor-pointer transform-gpu"
@@ -337,7 +337,7 @@ const CaseStudiesSection = forwardRef<HTMLElement>((props, ref) => {
           {/* Case 2 - UrusportSummit */}
           <div className="mb-32">
             <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-              <Link href="#schedule">
+              <Link href="https://urusportsummit.com/" target="_blank">
                 <div
                   ref={addToRefs}
                   className="group relative cursor-pointer transform-gpu"
