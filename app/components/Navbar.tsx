@@ -17,7 +17,6 @@ export default function Navbar() {
   const pathSegments = pathname.split('/');
   const currentLocale = pathSegments[1] || 'es'; // El primer segmento después de '/' es el locale
   const switchLocale = currentLocale === 'es' ? 'en' : 'es';
-  console.log(currentLocale, switchLocale);
   
   // Extraer la ruta sin el locale para evitar duplicación
   const pathWithoutLocale = pathSegments.slice(2).join('/') || '/';

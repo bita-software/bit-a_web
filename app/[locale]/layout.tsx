@@ -64,7 +64,7 @@ export default async function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <GoogleAnalytics gaId="G-PZ93FY9JWT" />
       </head>
-      <body className={`${manrope.variable} antialiased`}>
+      <body className={`${manrope.variable} antialiased`} suppressHydrationWarning>
         <LenisProvider>
           <SmoothScrollProvider>
             <NextIntlClientProvider messages={messages}>

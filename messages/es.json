@@ -571,5 +571,13 @@
       "title": "Error al enviar",
       "description": "Hubo un problema al enviar tu mensaje. Por favor, intentá nuevamente o contactanos directamente por email."
     }
+  },
+  "Blog": {
+    "title": "Perspectivas Estratégicas",
+    "intentFilter": "\"Contenido diseñado para líderes que buscan transformar la tecnología en una ventaja competitiva inalcanzable.\"",
+    "noImage": "Sin Imagen",
+    "readingTime": "Lectura",
+    "minutes": "min.",
+    "verifiedContent": "Contenido Verificado"
   }
-} 
+}

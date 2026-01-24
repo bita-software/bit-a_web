@@ -571,5 +571,13 @@
       "title": "Error sending message",
       "description": "There was a problem sending your message. Please try again or contact us directly via email."
     }
+  },
+  "Blog": {
+    "title": "Strategic Insights",
+    "intentFilter": "\"Content designed for leaders looking to transform technology into an unreachable competitive advantage.\"",
+    "noImage": "No Image",
+    "readingTime": "Reading time",
+    "minutes": "min.",
+    "verifiedContent": "Verified Content"
   }
-} 
+}

@@ -1,6 +1,6 @@
 'use client';
 
-import { forwardRef, useEffect, useRef } from 'react';
+import { forwardRef, useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import AnimatedTitle from './AnimatedTitle';
 import CTAButton from './CTAButton';
@@ -21,8 +21,18 @@ const CaseStudiesSection = forwardRef<HTMLElement>((props, ref) => {
   const sectionRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLDivElement>(null);
   const casesRef = useRef<HTMLDivElement[]>([]);
+  const [mounted, setMounted] = useState(false);
+  const [particles, setParticles] = useState<{ left: string; top: string; delay: string }[]>([]);
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setMounted(true);
+      setParticles([...Array(6)].map(() => ({
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        delay: `${Math.random() * 10}s`
+      })));
+    }, 0);
     const ctx = gsap.context(() => {
       // Title animation
       gsap.fromTo(titleRef.current,
@@ -159,7 +169,10 @@ const CaseStudiesSection = forwardRef<HTMLElement>((props, ref) => {
 
     }, sectionRef);
 
-    return () => ctx.revert();
+    return () => {
+      clearTimeout(timer);
+      ctx.revert();
+    };
   }, []);
 
   const addToRefs = (el: HTMLDivElement | null) => {
@@ -184,19 +197,21 @@ const CaseStudiesSection = forwardRef<HTMLElement>((props, ref) => {
       <div className="parallax-bg absolute inset-0 bg-gradient-to-b from-[#0B40FF]/3 via-black/5 to-black"></div>
 
       {/* Minimal floating particles */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(6)].map((_, i) => (
-          <div
-            key={i}
-            className="floating-element absolute w-1 h-1 bg-[#0B40FF]/10 rounded-full"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 10}s`
-            }}
-          />
-        ))}
-      </div>
+      {mounted && (
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {particles.map((particle, i) => (
+            <div
+              key={i}
+              className="floating-element absolute w-1 h-1 bg-[#0B40FF]/10 rounded-full"
+              style={{
+                left: particle.left,
+                top: particle.top,
+                animationDelay: particle.delay
+              }}
+            />
+          ))}
+        </div>
+      )}
 
       <div className="relative z-10">
         {/* Title Section */}
