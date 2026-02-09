@@ -4,6 +4,7 @@ import configPromise from '@/payload.config'
 import Link from 'next/link'
 import ThreeDImageCard from '@/app/components/ThreeDImageCard'
 import { getTranslations } from 'next-intl/server'
+import post01 from "@/public/images/post01.png"
 
 const VISION_LEVEL_LABELS: Record<string, Record<string, string>> = {
   'foundation': {
@@ -54,7 +55,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
                <Link href={`/${locale}/insights/${post.slug}`} className="block w-full h-full">
                 {post.meta?.image && typeof post.meta.image !== 'string' && post.meta.image.url ? (
                   <ThreeDImageCard 
-                    src={post.meta.image.url} 
+                    src={post01.src} 
                     alt={post.meta.image.alt || post.title}
                     className="h-[260px] w-full"
                   />
